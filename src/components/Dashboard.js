@@ -1,7 +1,8 @@
 import React from 'react';
+import Sidebar from './Sidebar';
 
 const Dashboard = ({ id }) => {
-  return <div>{id}</div>;
+  return <Sidebar id={id} />;
 };
 
 export default Dashboard;
